@@ -1,0 +1,48 @@
+.container {}
+
+.review-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    max-width: 854px;
+    max-height: 144px;
+    margin: 0 auto;
+    color: #fbfbfb;
+}
+
+.title-text {}
+
+.review-list {
+    display: flex;
+    gap: 26px;
+}
+
+.review-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+    color: #040306;
+    padding: 32px 28px;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.review-name {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.002em;
+}
+
+.review-text {
+    opacity: 40%;
+}
+
+.review-image {
+    margin-bottom: 24px;
+
+}

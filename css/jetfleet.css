@@ -1,0 +1,52 @@
+.jetfleet {}
+
+.container {}
+
+.jetfleet .container {
+    color: #1B414B;
+    background-color: #FBFBFB;
+    border-radius: 24px;
+
+}
+
+.jetfleet-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 189px;
+    margin-bottom: 100px;
+    padding: 50px 50px 0 50px;
+}
+
+.jetfleet-info {
+    max-width: 354px;
+}
+
+.jetfleet h2 {
+    font-size: 48px;
+    font-weight: 500;
+    max-width: 537px;
+    line-height: 48px;
+}
+
+.jetfleet .first-text {
+    max-width: 354px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.jetfleet .second-text {
+    font-size: 13px;
+    color: #040306;
+    font-weight: 400;
+    opacity: 40%;
+}
+
+.jetfleet img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 24px;
+}
