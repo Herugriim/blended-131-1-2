@@ -65,4 +65,11 @@
     margin: 50px auto 0 auto;
     align-items: center;
     justify-content: center;
+    transition: background-color, color 0.3s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgba(251, 251, 251, 1);
+    color: rgba(27, 65, 75, 1);
 }

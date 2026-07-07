@@ -5,13 +5,24 @@
     font-weight: 500;
     line-height: 48px;
     text-align: center;
-    max-width: 854px;
-    max-height: 144px;
-    margin: 0 auto;
+    width: 854px;
+    margin: 150px auto 0 auto;
     color: #fbfbfb;
 }
 
-.title-text {}
+.title-text {
+    font-weight: 400;
+    font-size: 14px;
+
+    /* line-height: 18px; */
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    opacity: 0.4;
+    width: 571px;
+    margin: 25px auto 75px auto;
+}
 
 .review-list {
     display: flex;
