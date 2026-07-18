@@ -1,0 +1,33 @@
+.container {
+}
+.about-container {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+.about-info {
+  width: 716px;
+  padding: 90px 50px;
+  background-color: #1b414b;
+  border-radius: 24px;
+}
+
+.about-title {
+}
+.about-list {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 44px;
+  row-gap: 44px;
+  margin: 0;
+  padding: 0;
+}
+
+.about-list li {
+  width: calc((100% - 44px) / 2);
+}
+.about-img {
+}

@@ -1,0 +1,86 @@
+.container {
+}
+
+.rent-container {
+  display: flex;
+  gap: 50px;
+}
+
+.rent-info {
+}
+
+.rent-img {
+  border-radius: 18px;
+}
+.rent-title {
+  margin-bottom: 50px;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.rent-form {
+  display: flex;
+  flex-direction: column;
+}
+.rent-input {
+  width: 472px;
+  height: 54px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  color: #ffffff;
+  padding-left: 18px;
+  margin-bottom: 18px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.rent-input:focus {
+  outline: none;
+  border-color: rgba(251, 251, 251, 0.5);
+}
+
+.rent-input::placeholder {
+  color: rgba(251, 251, 251, 0.4);
+
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.rent-textarea {
+  width: 472px;
+  height: 116px;
+  padding-left: 18px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 18px 0 0 18px;
+  resize: none;
+  margin-bottom: 50px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.rent-textarea:focus {
+  border-color: rgba(251, 251, 251, 0.5);
+}
+
+.rent-btn {
+  padding: 18px 75px;
+  background-color: #1b414b;
+  border-radius: 15px;
+  border: none;
+  color: #fbfbfb;
+  transition:
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+
+.rent-btn:hover,
+.rent-btn:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+}

@@ -185,18 +185,39 @@
             </div>
         </section>
         <section id="about-us">
-            <h2>Yacht rental</h2>
-            <ol>
-                <li>Swimming and water sports: try your hand at water skiing</li>
-                <li>Fishing: try to catch your own dinner</li>
-                <li>Sightseeing tours: take a shore or island tour, enjoy the views and sunsets from the water </li>
-                <li>Rest and relaxation: read a book or listen to music while enjoying the outdoor atmosphere.</li>
-            </ol>
-            <img src="./images/about-us.webp" alt="about-us" width="432">
+            <div class="container about-container">
+                <div class="about-info">
+                    <ol class="about-list">
+                        <li>Swimming and water sports: try your hand at water skiing</li>
+                        <li>Fishing: try to catch your own dinner</li>
+                        <li>Sightseeing tours: take a shore or island tour, enjoy the views and sunsets from the water
+                        </li>
+                        <li>Rest and relaxation: read a book or listen to music while enjoying the outdoor atmosphere.
+                        </li>
+                    </ol>
+                </div>
+                <img class="about-img" src="./images/about-us.webp" alt="about-us" width="432">
+            </div>
         </section>
         <section id="rental">
-            <img src="./images/rental.webp" alt="rental" width="658">
-            <h2>Rent a yacht now</h2>
+            <div class="container rent-container">
+                <img class="rent-img" src="./images/rental.webp" alt="rental" width="658">
+                <div class="rent-info">
+                    <h2 class="rent-title">Rent a yacht now</h2>
+                    <form class="rent-form">
+                        <label for="rent-name"></label>
+                        <input class="rent-input" type="text" name="rent-name" id="rent-name" placeholder="Full Name">
+                        <label for="rent-email"></label>
+                        <input class="rent-input" type="email" name="rent-email" id="rent-email" placeholder="Email">
+                        <label for="rent-tel"></label>
+                        <input class="rent-input" type="tel" name="rent-tel" id="rent-tel" placeholder="Phone number">
+                        <label for="rent-comment"></label>
+                        <textarea class="rent-textarea" name="rent-comment" id="rent-comment"
+                            placeholder="Comment"></textarea>
+                    </form>
+                    <button class="rent-btn" type="button">Send</button>
+                </div>
+            </div>
         </section>
         <section id="reviews">
             <div class="container">
